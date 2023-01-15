@@ -72,13 +72,13 @@ namespace CodingTest_Console
                             break;
 
                         case 4:
-                            //string today = "2022.05.19";
-                            //string[] terms = { "A 6", "B 12", "C 3" };
-                            //string[] privacies = { "2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C" };
+                            string today = "2022.05.19";
+                            string[] terms = { "A 6", "B 12", "C 3" };
+                            string[] privacies = { "2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C" };
 
-                            string today = "2020.01.01";
-                            string[] terms = { "Z 3", "D 5" };
-                            string[] privacies = { "2019.01.01 A" };
+                            // string today = "2020.01.01";
+                            // string[] terms = { "Z 3", "D 5" };
+                            // string[] privacies = { "2019.01.01 A" };
 
                             int[] answer = Solutions.Solution_ExpireArr(today, terms, privacies);
                             Console.WriteLine(">>> 파기 해야하는 약관 : " + string.Join(", ", answer)); Console.ReadKey();
