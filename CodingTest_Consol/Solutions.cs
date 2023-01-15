@@ -231,12 +231,12 @@ namespace CodingTest_Console
 
             }
 
-            // answer = list_answer.ToArray();
-            answer = new int[list_answer.Count];
-            for(int i = 0; i < list_answer.Count; i++)
-            {
-                answer[i] = list_answer[i];
-            }
+            answer = list_answer.ToArray();
+            //answer = new int[list_answer.Count];
+            //for(int i = 0; i < list_answer.Count; i++)
+            //{
+            //    answer[i] = list_answer[i];
+            //}
 
             return answer;
         }
