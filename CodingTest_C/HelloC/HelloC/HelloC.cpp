@@ -48,6 +48,7 @@ void PrintConsole()
 	printf("==============================================================\n");
 	printf("[1] 2016년\n");
 	printf("[2] 가운데 글자 가져오기\n");
+	printf("[3] 두 정수 사이의 합\n");
 	printf("\n");
 }
 
@@ -56,7 +57,7 @@ void PrintSolution(int i)
 	printf("\n");
 	switch (i)
 	{
-		case 49:
+		case 49:			// 1
 		{
 			int a, b;
 			printf("2개의 정수를 입력하세요 : ");
@@ -74,7 +75,7 @@ void PrintSolution(int i)
 		}
 		break;
 
-		case 50:
+		case 50:			// 2
 		{
 			char str[] = "abcdef";
 			int len = strlen(str);
@@ -82,6 +83,18 @@ void PrintSolution(int i)
 			printf("입력된 문자열: %s , 문자열 크기 : %d\n", str, strlen(str));
 			char* rslt = solutionMiddleCharacter(str);
 			printf("rslt : %s\n", rslt);
+		}
+		break;
+
+		case 51:			// 3
+		{
+			int a, b;
+			printf("2개의 정수를 입력하세요 : ");
+			scanf("%d", &a);
+			scanf("%d", &b);
+
+			long rslt = solutionBetweenAdd(a, b);
+			printf("%d ~ %d 사이의 정수의 합은 %d 입니다.\n", a, b, rslt);
 		}
 		break;
 
