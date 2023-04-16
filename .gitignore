@@ -1,0 +1,46 @@
+# Visual Studio files
+*.suo
+*.pdb
+*.exe
+*.dll
+*.user
+*.opensdf
+*.sdf
+*.cache
+*.log
+*.vsp
+*.psess
+
+# C++ Project files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.obj
+*.pch
+*.idb
+*.manifest
+*.res
+*.aps
+*.apsx
+*.apsim
+*.apsimx
+*.apsim6
+
+# C# Project files
+*.csproj
+*.csproj.user
+*.sln
+*.obj
+*.pch
+*.idb
+*.manifest
+*.res
+*.aps
+*.apsx
+*.apsim
+*.apsimx
+*.apsim6
+
+# Ignore directory .vs
+.vs

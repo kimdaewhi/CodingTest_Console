@@ -1,0 +1,14 @@
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest\CodingTest\bin\Debug\CodingTest.exe.config
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest\CodingTest\bin\Debug\CodingTest.exe
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest\CodingTest\bin\Debug\CodingTest.pdb
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest\CodingTest\obj\Debug\CodingTest.csprojAssemblyReference.cache
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest\CodingTest\obj\Debug\CodingTest.csproj.CoreCompileInputs.cache
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest\CodingTest\obj\Debug\CodingTest.exe
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest\CodingTest\obj\Debug\CodingTest.pdb
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest_C#\CodingTest\bin\Debug\CodingTest.exe.config
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest_C#\CodingTest\bin\Debug\CodingTest.exe
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest_C#\CodingTest\bin\Debug\CodingTest.pdb
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest_C#\CodingTest\obj\Debug\CodingTest.csprojAssemblyReference.cache
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest_C#\CodingTest\obj\Debug\CodingTest.csproj.CoreCompileInputs.cache
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest_C#\CodingTest\obj\Debug\CodingTest.exe
+C:\Users\kimdaewhi\Desktop\개인 폴더\my\CodingTest_C#\CodingTest\obj\Debug\CodingTest.pdb
