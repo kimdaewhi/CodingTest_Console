@@ -22,7 +22,6 @@ long solutionBetweenAdd(int a, int b)
 	return answer;
 }
 
-
 // https://school.programmers.co.kr/learn/courses/30/lessons/12903
 char* solutionMiddleCharacter(const char* s)
 {
@@ -50,8 +49,6 @@ char* solutionMiddleCharacter(const char* s)
 
 	return answer;
 }
-
-
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/12901
 char* solutionMonth(int a, int b)
