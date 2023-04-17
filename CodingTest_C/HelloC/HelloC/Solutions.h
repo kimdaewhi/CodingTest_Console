@@ -1,4 +1,5 @@
 #pragma once
+#pragma once
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
@@ -17,3 +18,5 @@ long solutionBetweenAdd(int a, int b);
 char* solutionMiddleCharacter(const char* s);
 
 char* solutionMonth(int a, int b);
+
+char* solutionStrDesc(const char* s);

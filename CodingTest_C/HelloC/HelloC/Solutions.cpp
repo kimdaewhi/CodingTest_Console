@@ -22,6 +22,7 @@ long solutionBetweenAdd(int a, int b)
 	return answer;
 }
 
+
 // https://school.programmers.co.kr/learn/courses/30/lessons/12903
 char* solutionMiddleCharacter(const char* s)
 {
@@ -73,6 +74,29 @@ char* solutionMonth(int a, int b)
 }
 
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/12917?language=c
+char* solutionStrDesc(const char* s)
+{
+	char* temp;
+	temp = (char*)malloc(strlen(s) * sizeof(char));
+	strcpy(temp, s);
+	int len = strlen(temp);
 
+	for (int i = 0; i < len - 1; i++)
+	{
+		for (int j = 0; j < len - i - 1; j++)
+		{
+			if ((int)temp[j] < (int)temp[j + 1])
+			{
+				char tmp = temp[j];
+				temp[j] = temp[j + 1];
+				temp[j + 1] = tmp;
+			}
+		}
+	}
 
+	char* answer = (char*)malloc(strlen(temp) * sizeof(char));
+	strcpy(answer, temp);
+	return answer;
+}
 
