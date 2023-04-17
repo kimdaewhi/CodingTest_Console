@@ -40,6 +40,20 @@ namespace CodingTest
                         ContinueConsole();
                         break;
 
+                    case ConsoleKey.NumPad3:
+                    case ConsoleKey.D3:
+                        Console.Clear();
+                        Call_StrDesc();
+                        ContinueConsole();
+                        break;
+
+                    case ConsoleKey.NumPad4:
+                    case ConsoleKey.D4:
+                        Console.Clear();
+                        Call_WeiredCharacter();
+                        ContinueConsole();
+                        break;
+
                     case ConsoleKey.Escape:
                         return;
                 }
@@ -55,6 +69,8 @@ namespace CodingTest
         {
             Console.WriteLine("[1] 로또 최고 순위&최저 순위 맞추기");
             Console.WriteLine("[2] 가운데 문자열 반환");
+            Console.WriteLine("[3] 문자열 내림차순 정렬");
+            Console.WriteLine("[4] 이상한 문자");
             Console.WriteLine("==========================================");
         }
 
@@ -70,7 +86,8 @@ namespace CodingTest
 
         public static void Call_LottoTest()
         {
-            Solution solution = new Solution();
+            // Solution solution = new Solution();
+            Solution solution = Solution.Instance();
 
             List<int[]> list_lottos = new List<int[]>();                     // 사용자 선택 로또번호 list
             List<int[]> list_wins = new List<int[]>();                       // 당첨번호 list
@@ -117,7 +134,7 @@ namespace CodingTest
 
 
             // Output
-            int[] arr_answer = solution.Solution_lotto(list_lottos[i_lottoSel - 1], list_wins[i_winSel - 1]);
+            int[] arr_answer = Solution.Solution_lotto(list_lottos[i_lottoSel - 1], list_wins[i_winSel - 1]);
 
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine("최고 순위 : " + arr_answer[0] + ", 최저 순위 : " + arr_answer[1]);
@@ -148,6 +165,25 @@ namespace CodingTest
                 answer = str.Substring(strtPos, 2);
             }
             Console.WriteLine("answer : " + answer);
+        }
+
+
+        public static void Call_StrDesc()
+        {
+            Console.WriteLine("문자열을 입력하세요.(알파벳 대/소문자)");
+            Console.Write("str : ");
+            string str = Console.ReadLine();
+            string rslt = Solution.solution_StrDesc(str);
+            Console.WriteLine("rslt : " + rslt);
+        }
+
+
+        public static void Call_WeiredCharacter()
+        {
+            Console.WriteLine("문자열을 입력하세요. : ");
+            string str = Console.ReadLine();
+            string rslt = Solution.solution_WeirdWord(str);
+            Console.WriteLine("rslt : " + rslt);
         }
 
 
